@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pagina de compras</title>
+		<meta charset = "UTF-8"/>
+		<link rel = "stylesheet" href = "estilo.css"/>
+		<script src = "script.js"></script>
+		<script>
+		</script>
+	</head>
+		<body>
+			<h1>Página de compras</h1>
+			<form>
+				<label for = "produto">Produto</label>
+				<input type = "text" id = "produto"/>
+			
+				<label for = "valor">valor: </label>
+				<input type = "text" id = "valor"/>
+
+				<label for = "quantidade">Quantidade: </label>
+				<input type = "text" id = "quantidade"/>
+			
+				<input type = "reset" id = "bap" onclick = "adicionarProduto()" value = "Adicionar produtos">
+				<input type = "button" value = "Salvar produto"/>
+			</form>
+			<table class = "carrinho">
+				<caption>Tabela de Produtos</caption>
+					<thead>
+						<tr>
+							<th>Produto </th>
+							<th>Valor </th>
+							<th>Quantidade</th>
+							<th>Valor Venda</th>
+						</tr>
+					</thead>
+					<tbody id = "tabela_produtos">
+					</tbody>
+					<tfoot>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<th id = "valor_total"><span>Total: R$ </span>0,00</th>
+						</tr>
+				</tfoot>
+			</table>
+		</body>
+</html>

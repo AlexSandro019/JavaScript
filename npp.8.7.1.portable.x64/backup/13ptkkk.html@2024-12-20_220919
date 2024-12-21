@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>É ou não é?</title>
+    <script>
+        var n1 = prompt("Escreva um número");
+
+        // Verifica se o valor digitado é um número
+        if (isNaN(n1)) {
+            alert("Por favor, insira um número válido.");
+        } else {
+            if (n1 == 13) {
+                alert("O número é petista");
+            } else {
+                var sobra = n1 % 2;
+                if (sobra == 0) {
+                    alert("O número é par");
+                } else {
+                    alert("O número é ímpar");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Par ou ímpar</h1>
+</body>
+</html>

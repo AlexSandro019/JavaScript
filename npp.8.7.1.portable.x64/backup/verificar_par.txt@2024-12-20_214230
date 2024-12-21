@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset = "UTF-8">
+			<title>É ou não é?</title>
+			<script>
+				var n1 = prompt("Escreva um número");
+				if(n1 % ==0){
+				alert("Este número é par");
+				}
+				else{
+				alert("Este número é impar");
+				}
+				
+				var resto = alert("O RESTO dessa divisão é: "+ divisao);
+			</script>
+		</head>
+	<body>
+		<h1>Verificador de pares</h1>
+	</body>
+</html>

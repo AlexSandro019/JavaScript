@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Object</title>
+		<meta charset = "UTF-8">
+		<script>
+			//objeto pedido
+			var variavel_tipo_objeto = [
+			{
+			
+				codigo: 1,
+				total: 1000.00,
+				itens:
+				[//array de objetos
+					{//item 0 - primeiro item
+					"descricao": "Camiseta Polo",
+					valor: 150.00
+					},
+					{//item 1 - segundo item
+					"descricao": "Bermuda",
+					valor: 80.5
+					}
+					]
+					},
+					{
+						codigo: 2,
+						total: 300,
+						itens:
+						[
+							{
+							descricao: "Chinelo",
+							valor: 120
+							}
+						]
+					}
+				];
+					
+					
+			alert(variavel_tipo_objeto[1].codigo);
+			alert(variavel_tipo_objeto[1].total);
+			alert(variavel_tipo_objeto[1].itens[0].descricao);
+			alert(variavel_tipo_objeto[0].itens[1].descricao);
+			alert(variavel_tipo_objeto[0].itens[1].valor);
+			console.log("Abaixo está o nosso objeto criado: ");
+			console.log(variavel_tipo_objeto);
+		</script>
+	</head>
+	<body>
+	</body>
+<html>

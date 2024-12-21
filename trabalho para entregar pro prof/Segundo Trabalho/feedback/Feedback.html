@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Feedback</title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: black;
+                color: white;
+            }
+        </style>
+        <form>
+            <p><label for="Nome">Nome: </label><input type = "text"></p>
+            <p><label>Avaliação (1 a 5): </label><input type = "number" id="avaliacao" min="1" max="5"></p>
+            <p><label>Comentários: </label></p>
+            <textarea id="com" name="com" rows="5"></textarea>
+            <p><button type = "reset" name = "Limpar" id="Limpar">Limpar</button>
+            <button type = "submit" name="Enviar" id="Enviar">Enviar</button></p>
+        </form>
+    
+    </body>
+</html>

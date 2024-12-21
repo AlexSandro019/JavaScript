@@ -1,0 +1,11 @@
+head {
+	background-color: white;
+}
+body {
+	background-color: black;
+	color: white;
+}
+form {
+	color: white;
+	border: 3px solid white;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Cadastro para Evento</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    <form>
+    <h1>Exercício 3: Cadastro para Evento</h1>
+    <p><label>Nome completo: </label><input type="text"></p>
+    <p><label>E-mail: </label><input type="text" name="email" id="email"></p>
+    <p><label>Telefone: </label><input type="number" name="number" id="number"></p>
+    <p>Sexo: </p>
+    <input type = "radio" id = "mas" name = "sex" value = "mas">  
+			 <label for = "mas">Masculino</label> 
+			 <input type = "radio" id = "fem" name = "sex" value = "fem"> 
+			 <label for = "css">Feminino</label> 
+    <p>Interesse em atividades: </p>
+    <p> <input type = "checkbox" id = "pal" name = "att" value = "Palestras"> 
+        <label for = "veiculo_01">Palestras</label> </p>
+       <p> <input type = "checkbox" id = "wor" name = "att" value = "wor"> 
+        <label for = "veiculo_02">Workshop</label> </p>
+       <p> <input type = "checkbox" id = "net" name = "att" value = "net">
+       <label for = "veiculo_03">Network</label> </p>
+       <p><button type = "reset" name = "Limpar" id="Limpar">Limpar</button>
+        <button type = "submit" name="Enviar" id="Enviar">Enviar</button></p>
+    </form>
+</body>
+</html>
